@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="eventCreator">
+    <apiVersion>60.0</apiVersion>  <!-- Update this based on your API version -->
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>  <!-- Makes LWC available on record pages -->
+    </targets>
+</LightningComponentBundle>
